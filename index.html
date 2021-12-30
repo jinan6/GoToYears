@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>倒计时</title>
+    <link rel="icon" href="/img/favicon.png">
     <!-- 这是网页标题 -->
     <style>
       body {
@@ -157,25 +158,25 @@
           second +
           "秒" +
           "<br><span>愿你所念的人平安喜乐，<br>愿你所想的事顺心如意。<br>May the people I think of be safe and happy, <br>and may the things I think of be all right.</span>";
-        if (minute == 0) {
-          if (second == 10) {
-            var audio = new Audio(
-              "http://music.163.com/song/media/outer/url?id=1808079730.mp3"
-            );
-            audio.play(); //播放
-          }
-        }
-        if (minute == 59 || msec == 0) {
-          window.location.href = "烟花源码.html";
-        }
+        // if (minute == 0) {
+        //   if (second == 10) {
+        //     var audio = new Audio(
+        //       "http://music.163.com/song/media/outer/url?id=1808079730.mp3"
+        //     );
+        //     audio.play(); //播放
+        //   }
+        // }
+        // if (minute == 59 || msec == 0) {
+        //   window.location.href = "fireworks.html";
+        // }
         return true;
       }
     </script>
-    <audio
+    <!-- <audio
       autoplay="autoplay"
       loop="loop"
       preload="auto"
       src="http://music.163.com/song/media/outer/url?id=1821602319.mp3"
-    ></audio>
+    ></audio> -->
   </body>
 </html>
